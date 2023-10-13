@@ -9,7 +9,7 @@
 }
 
 /* ********* variables css part end ********** */
-/* ********* coomon css part start ********** */
+/* ********* common css part start ********** */
 * {
     margin: 0;
     padding: 0;
@@ -40,7 +40,7 @@ ol {
     padding: 0;
 }
 
-/* ********* coomon css part end ********** */
+/* ********* common css part end ********** */
 /* ********* main menu css part start ********** */
 .main_menu{
     position: absolute;
