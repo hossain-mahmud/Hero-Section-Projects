@@ -10,7 +10,7 @@
 }
 
 /* ********* variables css part end ********** */
-/* ********* coomon css part start ********** */
+/* ********* common css part start ********** */
 * {
     margin: 0;
     padding: 0;
@@ -45,7 +45,7 @@ body {
     background: #F7F7F9;
 }
 
-/* ********* coomon css part end ********** */
+/* ********* common css part end ********** */
 /* ********* main menu css part start ********** */
 .main_menu ul li a {
     color: var(--mainBrandColor) !important;
