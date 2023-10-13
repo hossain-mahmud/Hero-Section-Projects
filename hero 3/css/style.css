@@ -1,0 +1,136 @@
+/* ========= fonts link css part start ======= */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* -------- fonts link css part end----------- */
+/* ========= css variables css part start ======= */
+:root {
+    --poppins: 'Poppins', sans-serif;
+    --white: #fff;
+}
+
+/* -------- css variables css part end----------- */
+/* ========= common css part start ======= */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* -------- common css part end----------- */
+/* ========= main menu css part start ======= */
+.button_bar {
+    background: var(--white);
+}
+
+/* -------- main menu css part end----------- */
+/* ========= banner css part start ======= */
+#banner {
+    background: url(../images/hero_image.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 228px;
+    padding-bottom: 86px;
+    position: relative;
+    z-index: 1;
+}
+
+#banner::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.60);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.banner_title h1 {
+    margin: 0 auto;
+    text-align: center;
+    color: var(--white);
+    font-size: 66px;
+    font-family: var(--poppins);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.banner_search {
+    margin: 0 auto;
+}
+
+.banner_search .input-box input {
+    height: 66px;
+}
+
+.banner_search .input-box {
+    position: relative;
+}
+
+.input-box i {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    color: #D8D8D8;
+}
+
+.banner_search .search_text p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: var(--white);
+    font-family: var(--poppins);
+    font-weight: 400;
+    margin-bottom: 90px;
+}
+
+.banner_col .banner_button {
+    text-align: center;
+}
+
+.banner_col .banner_button a {
+    width: 200px;
+    height: 60px;
+    border-radius: 100px;
+    background: var(--white);
+    text-align: center;
+    line-height: 60px;
+    font-size: 14px;
+    color: #1E255E;
+    font-family: var(--poppins);
+    font-weight: 500;
+    transition: all linear .3s;
+}
+.banner_col .banner_button a:hover{
+    background: #1E255E;
+    color: var(--white);
+    transform: scale(1.1);
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+/* -------- banner css part end----------- */
