@@ -1,0 +1,133 @@
+/* ********* fonts link css part start ********** */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* ********* fonts link css part end ********** */
+/* ********* variables css part start ********** */
+:root {
+    --mainBrandColor: #1E255E;
+    --secondaryFocus: #3C4EF3;
+    --poppins: 'Poppins', sans-serif;
+}
+
+/* ********* variables css part end ********** */
+/* ********* coomon css part start ********** */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F7F7F9;
+}
+
+/* ********* coomon css part end ********** */
+/* ********* main menu css part start ********** */
+.main_menu ul li a {
+    color: var(--mainBrandColor) !important;
+    font-size: 14px;
+    font-family: var(--poppins);
+    font-weight: 500;
+    text-align: right;
+}
+.menu_items{
+    gap: 50px;
+}
+.main_menu ul li a:hover::after {
+    width: 100%;
+}
+
+.main_menu .menu_button a {
+    width: 130px;
+    height: 42px;
+    background: var(--secondaryFocus);
+    border-radius: 100px;
+    font-size: 14px;
+    color: #fff;
+    font-family: var(--poppins);
+    font-weight: 500;
+    text-align: center;
+    line-height: 42px;
+    transition: all linear .3s;
+}
+
+.main_menu .menu_button a:hover {
+    background: none;
+    color: var(--secondaryFocus);
+    border: 1px solid var(--secondaryFocus);
+    transform: scale(1.1);
+}
+
+/* ********* main menu css part end ********** */
+/* ********* banner css part start ********** */
+#banner {
+    width: 100%;
+    background: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 55px;
+    padding-bottom: 174px;
+}
+
+.banner_items .banner_text h1 {
+    width: 540px;
+    font-size: 64px;
+    color: var(--mainBrandColor);
+    font-family: var(--poppins);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.banner_items .banner_text p {
+    width: 404px;
+    font-size: 16px;
+    color: rgba(30, 37, 94, 0.70);
+    font-family: var(--poppins);
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.banner_button {
+    display: flex;
+    gap: 20px;
+}
+
+.banner_button a {
+    width: 200px;
+    height: 60px;
+    border-radius: 100px;
+    background: rgba(60, 78, 243, 0.1);
+    text-align: center;
+    line-height: 60px;
+    font-size: 14px;
+    color: var(--secondaryFocus);
+    font-family: var(--poppins);
+    font-weight: 500;
+
+}
+/* ********* banner css part end ********** */
